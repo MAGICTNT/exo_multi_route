@@ -45,8 +45,8 @@
             <td><%= chien.getRace() %></td>
             <td><%= chien.getDateNaissance().toString() %></td>
             <td>
-                <a href="${pageContext.request.contextPath}/detaille?idChien=<%= chien.getIdChien() %>">plus d'info</a>
-                <a href="${pageContext.request.contextPath}/update?idChien=<%= chien.getIdChien() %>">plus d'info</a>
+                <a href="${pageContext.request.contextPath}/dog/detail?idChien=<%= chien.getIdChien() %>">plus d'info</a>
+<%--                <a href="${pageContext.request.contextPath}/dog/ajouter?idChien=<%= chien.getIdChien() %>">plus d'info</a>--%>
 
             </td>
         </tr>

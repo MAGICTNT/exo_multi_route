@@ -32,7 +32,7 @@
     <p>Il est né le: <%= chien.getDateNaissance() %> </p>
     <p>Et c'est un: <%= chien.getRace() %></p>
     <% } else { %>
-    <p>besoin d'un loulou, aller sur ajouter <button><a href="${pageContext.request.contextPath}/affichage">ajouter</a> </button></p>
+    <p>besoin d'un loulou, aller sur ajouter <button><a href="${pageContext.request.contextPath}/afficher">ajouter</a> </button></p>
     <% } %>
 </main>
 

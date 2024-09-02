@@ -8,10 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div>
     <button>
-        <a href="${pageContext.request.contextPath}/dog/affichage">affichage</a>
+        <a href="${pageContext.request.contextPath}/dog/afficher">affichage</a>
     </button>
     <button>
-        <a href="${pageContext.request.contextPath}/dog/detaille">detaille</a>
+        <a href="${pageContext.request.contextPath}/dog/detail">detaille</a>
     </button>
     <button>
         <a href="${pageContext.request.contextPath}/dog/ajouter">ajouter</a>

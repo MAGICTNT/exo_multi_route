@@ -19,7 +19,7 @@
 
 
     <p><%= message != null ? message : "ajouter un chien"%></p>
-    <form action="/ajouter" method="post">
+    <form action="${pageContext.request.contextPath}/dog/ajouter" method="post">
         <label for="nom">Nom du chien</label>
         <input type="text" id="nom" name="nom"
                required
